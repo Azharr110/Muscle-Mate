@@ -7,7 +7,7 @@ const Footer = () => (
     <Stack gap="40px" sx={{ alignItems: 'center' }} flexWrap="wrap" px="40px" pt="24px">
       <img src={Logo} alt="logo" style={{ width: '48px', height: '48px' , margin:'0 20px'}} />
     </Stack>
-    <Typography variant="h5" sx={{ fontSize: { lg: '28px', xs: '20px' } }} mt="41px" textAlign="center" pb="40px">Get Fit and Strong with <span style={{ textTransform: 'capitalize' }}>Muscle Mate</span></Typography>
+    <Typography variant="h5" sx={{ fontSize: { lg: '28px', xs: '20px' } }} mt="41px" textAlign="center" pb="40px">Get Fit and Strong with <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>Muscle Mate</span></Typography>
   </Box>
 );
 

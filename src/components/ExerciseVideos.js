@@ -4,7 +4,9 @@ import Loader from './Loader';
 
 const ExerciseVideos = ({ exerciseVideos, name }) => {
   // console.log(exerciseVideos)
-  if (!exerciseVideos.length) return <Loader />;
+  // if (!exerciseVideos.length) return <Loader />;
+  if (!exerciseVideos || !Array.isArray(exerciseVideos) || exerciseVideos.length === 0) return <Loader />;
+
 
   return (
     <Box sx={{ marginTop: { lg: '203px', xs: '20px' } }} p="20px">
